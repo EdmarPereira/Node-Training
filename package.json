@@ -1,0 +1,19 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "only for training",
+  "main": "routin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "training",
+    "node",
+    "modules"
+  ],
+  "author": "Edmar",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.9"
+  }
+}
