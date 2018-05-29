@@ -14,4 +14,5 @@ var counter = function(arr){
     return 'Number of elements inside the array = ' + arr.length ;
 };
 
+
 console.log(counter(['Edmar','Renata','Joao']));
