@@ -2,4 +2,20 @@ Node
 
 Para começar uma aplicação no node inicia-se com npm install 
 esse comando irá instalar a pasta node-modules, e gerar o dependencies dentro do package.json.
-Quando for necessário passar essa pasta para alguém manda a aplicação sem o node modules, a pessoa baixa a aplicação e inicia com npm install, isso irá baixar as dependencias necessárias conforme gerado no files package.json
+Quando for necessário passar essa pasta para alguém manda a aplicação sem o node modules, a pessoa baixa a aplicação e inicia com npm install, isso irá baixar as dependencias necessárias conforme gerado no files package.json.
+
+Dentro do package.json pode se criar scripts, na aplicação node-str existe um script para iniciar o node, ao invés de executar "node server.js" (está localizado em uma subpasta do projeto) executa-se com o comando "npm start" 
+
+Quando se instala alguma dependencia como por exemplo :
+"npm install nodemon --save-dev", é instalado somente em desenvolvimento, na produção nao será executado, somente é usado em tempo de desenvolvimento.
+
+Nodemon para se trabalhar com ele inicia-se como "nodemon .\bin\server.js", OBS - Para funcionar o nodemon dever ser instalado globalmente "npm install -g nodemon"
+
+
+Pacotes do NodeJs
+Nodemon - Restarta o server quando é identificado algum tipo de informação
+Express - Faz o roteamento dos arquivos de dentro do NodeJs
+Http - Cria servidor local para node 
+
+Aplicativos
+Postman - Navegador que facilita debug de códigos - getpostman.com 
