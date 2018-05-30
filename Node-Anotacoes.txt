@@ -16,6 +16,11 @@ Pacotes do NodeJs
 Nodemon - Restarta o server quando é identificado algum tipo de informação
 Express - Faz o roteamento dos arquivos de dentro do NodeJs
 Http - Cria servidor local para node 
+Mongoose - Cria coleções através de squema, para trabalhar com MongoDb json
 
 Aplicativos
 Postman - Navegador que facilita debug de códigos - getpostman.com 
+
+Banco
+MongoDb - Mlab.com
+3T Studio - interface para Mongo DB
