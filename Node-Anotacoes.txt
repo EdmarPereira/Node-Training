@@ -7,7 +7,7 @@ Quando for necessário passar essa pasta para alguém manda a aplicação sem o node
 Dentro do package.json pode se criar scripts, na aplicação node-str existe um script para iniciar o node, ao invés de executar "node server.js" (está localizado em uma subpasta do projeto) executa-se com o comando "npm start" 
 
 Quando se instala alguma dependencia como por exemplo :
-"npm install nodemon --save-dev", é instalado somente em desenvolvimento, na produção nao será executado, somente é usado em tempo de desenvolvimento.
+Primeiro instalase dessa forma npm install -g nodemon e depois "npm install nodemon --save-dev", é instalado somente em desenvolvimento, na produção nao será executado, somente é usado em tempo de desenvolvimento.
 
 Nodemon para se trabalhar com ele inicia-se como "nodemon .\bin\server.js", OBS - Para funcionar o nodemon dever ser instalado globalmente "npm install -g nodemon"
 
