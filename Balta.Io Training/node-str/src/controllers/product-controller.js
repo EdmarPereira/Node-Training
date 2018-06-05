@@ -91,12 +91,8 @@ exports.put = (req, res, next) => {
 
 
 
-exports.delete = (req, res, next) => {
-
-    console.log('val a ser deletado ' + req.body.id)
-    
+exports.delete = (req, res, next) => {   
     Product
-    
     .findOneAndRemove(req.body.id)
     .then(x => {
         res.status(200).send({
