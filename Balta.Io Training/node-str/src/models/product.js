@@ -1,4 +1,4 @@
-'use-strict';
+'use strict';
 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
@@ -9,6 +9,7 @@ const schema = new Schema({
         required: true,
         trim: true
     },
+
     slug: {
         type: String,
         required: true,
@@ -29,7 +30,7 @@ const schema = new Schema({
     },
 
     active: {
-        type: boolean,
+        type: Boolean,
         required: true,
         default: true
     },

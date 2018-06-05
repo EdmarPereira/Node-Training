@@ -8,11 +8,14 @@ const app = express();
 const router = express.Router();
 
 //conecção com db
-mongoose.connect('mongodb://nodejs_balta1:nodejs_balta1@ds050559.mlab.com:50559/nodejs_balta')
+mongoose.connect('mongodb://nodejs_balta1:nodejs_balta1@ds050559.mlab.com:50559/nodejs_balta');
+
+//carregar os Models
+const Product = require('./models/product');
 
 // carregas as rotas do projeto
 const indexRoute = require('./routes/index-route');
-const productRoute = require('./routes/product-route')
+const productRoute = require('./routes/product-route');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
