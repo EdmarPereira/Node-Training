@@ -1,7 +1,8 @@
 Node 
 
 Link para Youtube:
-https://www.youtube.com/watch?v=wDWdqlYxfcw&list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn
+Balta - https://www.youtube.com/watch?v=wDWdqlYxfcw&list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn
+Ninja - https://www.youtube.com/watch?v=w-7RQ46RgxU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp
 
 Para começar uma aplicação no node inicia-se com npm install 
 esse comando irá instalar a pasta node-modules, e gerar o dependencies dentro do package.json.
