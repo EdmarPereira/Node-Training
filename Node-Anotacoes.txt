@@ -1,5 +1,8 @@
 Node 
 
+Link para Youtube:
+https://www.youtube.com/watch?v=wDWdqlYxfcw&list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn
+
 Para começar uma aplicação no node inicia-se com npm install 
 esse comando irá instalar a pasta node-modules, e gerar o dependencies dentro do package.json.
 Quando for necessário passar essa pasta para alguém manda a aplicação sem o node modules, a pessoa baixa a aplicação e inicia com npm install, isso irá baixar as dependencias necessárias conforme gerado no files package.json.
