@@ -12,6 +12,8 @@ mongoose.connect('mongodb://nodejs_balta1:nodejs_balta1@ds050559.mlab.com:50559/
 
 //carregar os Models
 const Product = require('./models/product');
+const Customer = require('./models/customer');
+const Order = require('./models/order');
 
 // carregas as rotas do projeto
 const indexRoute = require('./routes/index-route');
