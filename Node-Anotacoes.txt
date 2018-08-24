@@ -4,27 +4,30 @@ Link para Youtube:
 Balta - https://www.youtube.com/watch?v=wDWdqlYxfcw&list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn
 Ninja - https://www.youtube.com/watch?v=w-7RQ46RgxU&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp
 
-Para comeÁar uma aplicaÁ„o no node inicia-se com npm install 
-esse comando ir· instalar a pasta node-modules, e gerar o dependencies dentro do package.json.
-Quando for necess·rio passar essa pasta para alguÈm manda a aplicaÁ„o sem o node modules, a pessoa baixa a aplicaÁ„o e inicia com npm install, isso ir· baixar as dependencias necess·rias conforme gerado no files package.json.
+Para come√ßar uma aplica√ß√£o no node inicia-se com npm install 
+esse comando ir√° instalar a pasta node-modules, e gerar o dependencies dentro do package.json.
+Quando for necess√°rio passar essa pasta para algu√©m manda a aplica√ß√£o sem o node modules, a pessoa baixa a aplica√ß√£o e inicia com npm install, isso ir√° baixar as dependencias necess√°rias conforme gerado no files package.json.
 
-Dentro do package.json pode se criar scripts, na aplicaÁ„o node-str existe um script para iniciar o node, ao invÈs de executar "node server.js" (est· localizado em uma subpasta do projeto) executa-se com o comando "npm start" 
+Dentro do package.json pode se criar scripts, na aplica√ß√£o node-str existe um script para iniciar o node, ao inv√©s de executar "node server.js" (est√° localizado em uma subpasta do projeto) executa-se com o comando "npm start" 
 
 Quando se instala alguma dependencia como por exemplo :
-Primeiro instalase dessa forma npm install -g nodemon e depois "npm install nodemon --save-dev", È instalado somente em desenvolvimento, na produÁ„o nao ser· executado, somente È usado em tempo de desenvolvimento.
+Primeiro instalase dessa forma npm install -g nodemon e depois "npm install nodemon --save-dev", √© instalado somente em desenvolvimento, na produ√ß√£o nao ser√° executado, somente √© usado em tempo de desenvolvimento.
 
 Nodemon para se trabalhar com ele inicia-se como "nodemon .\bin\server.js", OBS - Para funcionar o nodemon dever ser instalado globalmente "npm install -g nodemon"
 
 
 Pacotes do NodeJs
-Nodemon - Restarta o server quando È identificado algum tipo de informaÁ„o
+Nodemon - Restarta o server quando √© identificado algum tipo de informa√ß√£o
 Express - Faz o roteamento dos arquivos de dentro do NodeJs
 Http - Cria servidor local para node 
-Mongoose - Cria coleÁıes atravÈs de squema, para trabalhar com MongoDb json
+Mongoose - Cria cole√ß√µes atrav√©s de squema, para trabalhar com MongoDb json
 
 Aplicativos
-Postman - Navegador que facilita debug de cÛdigos - getpostman.com 
+Postman - Navegador que facilita debug de c√≥digos - getpostman.com 
 
 Banco
 MongoDb - Mlab.com
 3T Studio - interface para Mongo DB
+
+
+test for jenkins
